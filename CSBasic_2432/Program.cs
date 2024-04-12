@@ -29,6 +29,13 @@ namespace CSBasic_2432
             Console.WriteLine(double.MinValue);
             Console.WriteLine(double.MaxValue);
 
+            // sizeof 연산자 연습
+            Console.WriteLine("int : " + sizeof(int));
+            Console.WriteLine("long : " + sizeof(long));
+            Console.WriteLine("float : " + sizeof(float));
+            Console.WriteLine("double : " + sizeof(double));
+            Console.WriteLine("char : " + sizeof(char));
+            Console.WriteLine("bool : " + sizeof(bool));
         }
     }
 }
